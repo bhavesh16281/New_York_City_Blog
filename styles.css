@@ -1,0 +1,91 @@
+body{
+    background-color: #f0f0f0;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+}
+.nav-bar{
+    background-color: #010e80;
+    color: white;
+    text-align: center;
+}
+.nav-bar ul{
+    list-style-type: none;
+    display: table;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav-bar li{
+    display: table-cell;
+    text-align: center;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    padding: 30px 30px;
+	text-decoration: none;
+}
+.nav-bar a:hover{
+    background-color: #111;
+}
+h1{
+    font-size: 36px;
+    margin-top: 20px;
+}
+.description{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+#media figcaption{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+.food-aside{
+    padding: 20px;
+    border-color: blue;
+    border:5px solid blue;
+    margin-top: 20px;
+}
+.food-aside p{
+    font-size: 18px;
+    margin-top: 0;
+}
+.food-aside ol li{
+    font-size: 18px;
+    margin-top: 0;
+}
+.nyc-article{
+    padding: 20px;
+    border-radius: 5px;
+}
+.nyc-article h2{
+    font-size: 24px;
+    margin-top: 0;
+}
+.nyc-article p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+.nyc-article video{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.nyc-article embed{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.footer{
+    background-color: #010e80;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
